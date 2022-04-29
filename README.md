@@ -1,4 +1,4 @@
-# Overwiew
+# Overview
 
 This is an example project to analyze nuclear modification factors of K* and \overline{K*} in CuAu collisions for energy 200 GeV for different centrality classes and for different pT ranges in Pythia8 for Glauber nuclear model.
 
