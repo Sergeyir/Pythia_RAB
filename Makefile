@@ -53,14 +53,6 @@ $(PYTHIA):
 	$(error Error: PYTHIA must be built, please run "make"\
                 in the top PYTHIA directory)
 
-general_prod: $(PYTHIA) general_prod.cc
-ifeq ($(ROOT_USE),true)
-	$(CXX) $@.cc -o $@ -w $(CXX_COMMON) $(ROOT_LIB)\
-	 `$(ROOT_CONFIG) --cflags --glibs`
-else
-	$(error Error: $@ requires ROOT)
-endif
-
 centr: $(PYTHIA) centr.cc
 ifeq ($(ROOT_USE),true)
 	$(CXX) $@.cc -o $@ -w $(CXX_COMMON) $(ROOT_LIB)\
