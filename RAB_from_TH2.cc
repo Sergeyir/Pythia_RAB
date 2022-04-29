@@ -48,7 +48,6 @@ int RAB_from_TH2() {
 	hr->GetYaxis()->SetTitleSize(0.028);
 
 	gStyle->SetOptStat(0);
-
 	gPad->SetLogy();
 
 	hr->Draw("AXIS");
