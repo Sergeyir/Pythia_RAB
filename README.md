@@ -19,7 +19,7 @@ Before running macros create input and output directory in folder you've install
 
 ```sh
 mkdir -p data/RAB
-mkdir Pythia_RAB/output
+mkdir output
 ```
 
 # How to run
