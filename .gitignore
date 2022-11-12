@@ -1,0 +1,9 @@
+data/
+output/
+
+*.root
+*.txt
+*.log
+*.swap
+
+DetCentr
